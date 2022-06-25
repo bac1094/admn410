@@ -1,0 +1,97 @@
+#image {
+	position: relative;
+	width: 100%;
+}
+
+h1 {
+	position: absolute;
+	top: 58%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h2 {
+	position: absolute;
+	top: 77%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font: italic 32px/ 50px Helvetica, Sans-Serif;
+}
+
+
+h1 span {
+	color: white;
+	font: bold 180px/ 260px Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,-3);
+	padding: 10px;
+}
+
+h2 span.spacer {
+	padding: 0 5px;
+}
+
+nav{
+display: flex;
+flex-flow: row nowrap;
+justify-content: space-evenly;
+font: bold 24px/ 50px helvetica, sans-serif
+}
+
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+li a: hover {
+background-color: #111;
+}
+
+h3 {
+font: bold 38px/ 50px helvetica, sans-serif;
+background-color:#B3E6B5;
+}
+p {
+font: 24px/ 35px helvetica, sans-serif
+}
+
+h4{
+font: 30px/ 38px helvetica, sans-serif
+}
+
+h5{
+font: 28px/ 36px helvetica, sans-serif
+}
+
+figcaption{
+font: 24px/ 34px helvetica, sans-serif
+}
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
